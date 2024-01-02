@@ -59,9 +59,16 @@ button {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .container {
-  width: 1158px;
-  padding: 0 15px;
+  /* mobile */
+  /*width: 1158px;*/
+  padding: 0 16px;
   margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    /* tablet */
+    padding: 0 16px;
+  }
 }
 .header-container {
   display: flex; /*розміщує в рядок*/
