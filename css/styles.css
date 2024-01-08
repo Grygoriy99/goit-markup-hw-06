@@ -54,13 +54,21 @@ button {
   border: none;
 }
 
-/* header */
-.header {
-  border-bottom: 1px solid #e7e9fc;
-  display: block;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+.section {
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
+@media only screen and (min-width: 768px) {
+  .section {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}
+@media only screen and (min-width: 1158px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 .container {
   /* mobile */
   /*width: 1158px;*/
@@ -81,6 +89,13 @@ button {
     max-width: 1158px;
     padding: 0 15px;
   }
+}
+/* header */
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  display: block;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-container {
   display: flex; /*розміщує в рядок*/
