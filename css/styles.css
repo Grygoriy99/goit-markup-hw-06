@@ -1,3 +1,6 @@
+.hide {
+  display: none;
+}
 html {
   box-sizing: border-box;
 }
@@ -61,13 +64,22 @@ button {
 .container {
   /* mobile */
   /*width: 1158px;*/
+  max-width: 320px;
   padding: 0 16px;
   margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
   .container {
     /* tablet */
+    max-width: 736px;
     padding: 0 16px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .container {
+    /* desktop */
+    max-width: 1158px;
+    padding: 0 15px;
   }
 }
 .header-container {
@@ -251,7 +263,7 @@ button {
 
 /* our-advanteges */
 .our-advanteges {
-  padding: 120px 0 120px 0;
+  padding: 120px 0;
 }
 .our-advanteges-icon {
   display: flex;
@@ -844,5 +856,5 @@ button {
   color: #4d5ae5;
 }
 .icon-style {
-  text-dacoration: underline;
+  text-decoration-line: underline;
 }
