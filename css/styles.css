@@ -319,7 +319,7 @@ button {
   width: 100%;
   /*  flex-basis: calc((100% - 72px) / 4);*/
 }
-@media screen and (max-width: 1157.98px) {
+@media only screen and (max-width: 1157.98px) {
   .our-advanteges-icon {
     display: none;
   }
